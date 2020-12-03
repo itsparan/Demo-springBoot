@@ -29,7 +29,7 @@ public class StudentDAOHibernetImp implements StudentDAO {
 	@Override
 	//@Transactional
 	public List<Student> findAll() {
-		
+		// hello
 		//get the hibernate session 
 		Session currentSession= entityManager.unwrap(Session.class);
 		
